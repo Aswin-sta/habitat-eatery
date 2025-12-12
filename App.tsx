@@ -48,7 +48,7 @@ const App: React.FC = () => {
                         // Small delay to allow loader to exit before showing content transition
                         setTimeout(() => setContentVisible(true), 100);
                     }
-                 }, 300);
+                 }, 1000);
              }
         });
     };
